@@ -17,7 +17,7 @@ function capitalizeFirstLetter(string) {
 }
 
 //output button
-$outputButton.on('click', function (e) {
+$outputButton.on('click touchstart', function (e) {
   //request to MediaWiki
   let url = wikiLink + searchTerm.value;
   //fetch data from MediaWiki
